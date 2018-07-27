@@ -4,18 +4,59 @@
 	<title>Divs e Span</title>
 	<meta charset="utf-8">
 	<style type="text/css">
-		
+		#topo{
+			background: blue;
+		}
+
+		#conteudo{
+			background: red;
+		}
+		#rodape{
+			background: green;
+		}
+
+		.azul{
+			color:blue;
+		}
+
+		.produto{
+			background: grey;
+			margin:10px;
+		}
 
 	</style>
 </head>
 <body>
-	<div>
-		<img src="wynonnalogo.png" width="500" height="75">
+	<div id="topo">
+		<img src="wynonnalogo.png" width="200">
 		<ul>
 			<li>Home</li>
 			<li>Sobre a série</li>
 			<li>Contato</li>
 		</ul>
 	</div>
+	<div id="conteudo">
+		<div class="produto">
+			Produto 1
+		</div>
+		<div class="produto">
+			Produto 2
+		</div>
+		<div class="produto">
+			Produto 3
+		</div>
+	</div>
+
+	<div id="rodape">
+		Todos os <span class="azul">direitos</span> reservados
+	</div>
+	<!--
+	<span id="assinatura">
+		Waverly
+	</span>
+
+	<span id="assinatura">
+		Doc
+	</span>-->
 </body>
 </html>
