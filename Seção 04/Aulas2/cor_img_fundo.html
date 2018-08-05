@@ -10,14 +10,35 @@
 			color: white;
 		}*/
 
-		body{
+		h1{
 			background-image: url('C:/Users/Thainá/Documents/GitHub/Curso-WEB/Seção 04/imagens2/background.jpg');
 			/*repeat-x, repeat-y, repeat */
-			background-repeat: no-repeat;
+			background-repeat: repeat-x;
+			/*fixed, scroll */
+			background-attachment: scroll;
+			/*horizontal + vertical
+			primeiro valor: left,center, right
+			segundo valor: top, center, bottom
+			*/
+			background-position: center center;
+		}
+
+		.fundo{
+			background: blue url('C:/Users/Thainá/Documents/GitHub/Curso-WEB/Seção 04/imagens2/background.jpg') repeat scroll center;
 		}
 	</style>
 </head>
-<body>
+<body class="fundo">
 	<h1> Conteúdo de título 1</h1>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor bibendum ex quis faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+	<br><br><br><br><br><br>
+
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce porttitor bibendum ex quis faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
 </body>
 </html>

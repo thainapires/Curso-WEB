@@ -21,3 +21,5 @@ Tipos: https://www.w3schools.com/css/css_border.asp
 Site para ver códigos das cores: https://html-color-codes.info/
 
 Tipos de fontes: https://www.w3schools.com/css/css_font.asp
+
+Padding aplica espaçamento
