@@ -23,3 +23,7 @@ Site para ver códigos das cores: https://html-color-codes.info/
 Tipos de fontes: https://www.w3schools.com/css/css_font.asp
 
 Padding aplica espaçamento
+
+Box Model (Modelo de caixa) -> tags se comportam como caixas, pode aplicar borda/padding/margin(espaçamento externo)
+
+margin-collapse: é utilizada a maior margin

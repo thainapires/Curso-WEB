@@ -1,0 +1,31 @@
+/* 
+Modelo de caixa
+*/
+.conteudo{
+    border: 1px solid red;
+    /*padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;*/
+
+    /*padding: 20px 10px 15px 5px;*/
+    padding: 20px;
+    /*margin-top, margin-bottom...*/
+    margin:20px;
+    width: 250px; 
+}
+
+/*
+Noticias
+*/
+
+#noticia{
+    background: #f9f9f9;
+    border: 1px solid grey;
+    padding: 10px;
+
+}
+h2{
+    margin:0px;
+}
+
